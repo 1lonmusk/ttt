@@ -1,0 +1,61 @@
+n = ["*","*","*","*","*","*","*","*","*"]
+
+
+def ttt():
+    print(n[0]  +   "│"  +  n[1]  +  "│"   +  n[2])
+    print("─────")
+    print(n[3]  +   "│"  +  n[4]  +  "│"   +  n[5])
+    print("─────")
+    print(n[6]  +   "│"  +  n[7]  +  "│"   +  n[8])
+ttt()
+a = "Ｏ"
+b = "Ｘ"
+
+
+if n[0] == n[1] == n[2] == a:
+   print("양승리")
+elif n[3] == n[4] == n[5] == a:
+    print("양승리")
+elif n[6] == n[7] == n[8] == a:
+    print("양승리")
+elif n[0] == n[3] == n[6] == a:
+    print("양승리")
+elif n[1] == n[4] == n[7] == a:
+    print("양승리")
+elif n[2] == n[5] == n[8] == a:
+    print("양승리")
+elif n[0] == n[4] == n[8] == a:
+    print("양승리")
+elif n[2] == n[4] == n[6] == a:
+    print("양승리")
+
+
+
+
+
+
+
+
+
+
+# while True:
+
+
+    # a = "Ｏ"
+    # b = "Ｘ"
+# elif n[0] == n[1] == n[2] == b:
+# print("패배")
+# elif n[3] == n[4] == n[5] == b:
+# print("패배")
+# elif n[6] == n[7] == n[8] == b:
+# print("패배")
+# elif n[0] == n[3] == n[6] == b:
+# print("패배")
+# elif n[1] == n[4] == n[7] == b:
+# print("패배")
+# elif n[2] == n[5] == n[8] == b:
+# print("패배")
+# elif n[0] == n[4] == n[8] == b:
+# print("패배")
+# elif n[2] == n[4] == n[6] == b:
+# print("패배")
